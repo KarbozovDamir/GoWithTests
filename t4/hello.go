@@ -4,12 +4,10 @@ import "fmt"
 
 const englishHelloPrefix = "Hello, "
 
+// Hello returns a personalised greeting
 func Hello(name string) string {
 	return englishHelloPrefix + name
-	// return "Hello, " + name
-	// return "Hello, world" //got "Hello, world" want "Hello, Chris"
 }
-
 func main() {
 	fmt.Println(Hello("world"))
 }
